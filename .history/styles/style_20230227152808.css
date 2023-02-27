@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 940px;
+    margin-top:47px;
+}
+p{
+    display: inline-block;
+}
+.first-block {
+    text-align: left;
+}
+.second-block {
+    float: right;
+}
+.logo-Photo {
+    width: 37px;
+    height: 37px;
+}
+.Fb-Photo {
+width: 25px;
+height: 25px;
+
+}
+.Twit-Photo{
+    width: 25px;
+    height: 21px;
+}
+.input-back{
+    background-color: #FAC960;
+    height: auto;
+    margin-top:43px;
+    
+}
+.input-conteiner {
+    width: 940px; 
+    
+   margin: 0 auto;
+   
+}
+
+form {
+    display: inline-block;
+}
+button {
+      padding-left: 5px;
+      background-color: #A8863D;
+      color: #fff;
+}

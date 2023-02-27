@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 940px;
+    margin-top:47px;
+}
+
+
+h1 {
+    display: inline-block;
+}
+
+
+.first-block {
+    text-align: left;
+}
+
+
+.second-block {
+    float: right;
+}
+
+
+.logo-Photo {
+    width: 37px;
+    height: 37px;
+}
+
+
+.Fb-Photo {
+width: 25px;
+height: 25px;
+}
+
+
+.Twit-Photo{
+    width: 25px;
+    height: 21px;
+}
+
+
+.input-back{
+    width: 100%;
+    background-color: #FAC960;
+    height: auto;
+    margin-top:43px;
+    
+}
+
+
+.input-conteiner {
+    width: 940px; 
+    margin: 0 auto;
+   padding-top:91px;
+   padding-bottom: 92px;
+}
+
+
+p {
+    margin: 0px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 54px;
+    color: #8A6D2F;
+}
+
+
+
+.text_1 {
+    padding-top: 10px;
+}
+
+
+.text_2{
+    
+    margin-top: 0px;
+}
+
+
+
+form {
+    display: inline-block;
+    margin-top: 40px;
+   
+}
+
+
+
+input {
+    padding-left: 36px;
+    width: 560px;
+    height: 54px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 54px;
+color: #999999;
+margin-left: 70px;
+}
+
+button {
+      position: absolute;
+      width: 240px;
+      color: #fff;
+      background-color: #A8863D;
+      text-align: left;
+      padding-left: 30px;
+      height: 54px;
+      margin-left: 6px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 54px; 
+      border-radius: 0px 2px 2px 0px;
+}
+
+.full_Content{
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    background-color: #F2F2F2;
+}
+.content_first {
+    width: 940px;
+   margin: 0 auto;
+
+}
+.content_first h1{
+font-size: 37px;
+color: #000000;
+opacity: 56%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+/* identical to box height, or 97% */
+margin-top: 77px;
+margin-left:331px;
+text-align: center;
+}
+
+.content_first p{
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 32px;
+}
+
+.content_first img{
+    width: 187px;
+    height:100px;
+    margin-left: 377px;
+    margin-top: 56px;
+    margin-bottom: 81px;
+}
+.content_second {
+    width : 940px;
+    margin: 0 auto;
+    
+}
+.content_second img{
+    width: 300px;
+    height: 354px;
+    margin: 0 auto;
+}

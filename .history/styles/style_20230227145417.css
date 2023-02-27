@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+p{
+    display: inline-block;
+}
+.input-conteiner {
+    width: 940px; 
+    background-color: black;
+   margin: 0 auto;
+  
+}

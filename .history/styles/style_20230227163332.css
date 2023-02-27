@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 940px;
+    margin-top:47px;
+}
+h1 {
+    display: inline-block;
+}
+.first-block {
+    text-align: left;
+}
+.second-block {
+    float: right;
+}
+.logo-Photo {
+    width: 37px;
+    height: 37px;
+}
+.Fb-Photo {
+width: 25px;
+height: 25px;
+
+}
+.Twit-Photo{
+    width: 25px;
+    height: 21px;
+}
+.input-back{
+    background-color: #FAC960;
+    height: auto;
+    margin-top:43px;
+    
+}
+.input-conteiner {
+    width: 940px; 
+    margin: 0 auto;
+   padding-top:91px;
+   padding-bottom: 92px;
+}
+p {
+    margin: 0px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 54px;
+    color: #8A6D2F;
+}
+
+.text_1 {
+    padding-top: 10px;
+}
+.text_2{
+    
+    margin-top: 0px;
+}
+form {
+    display: inline-block;
+    
+}
+input {
+    padding-left: 36px;
+    width: 560px;
+    height: 54px;
+}
+button {
+    size: 30px;
+    padding-left: 36px;
+    width: 240px;
+    height: 54px;
+      padding-left: 5px;
+      background-color: #A8863D;
+      color: #fff;
+}

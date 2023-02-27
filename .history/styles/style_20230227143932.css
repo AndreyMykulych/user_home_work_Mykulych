@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+
+width: 940px;
+margin: 0 auto;
+margin-top: 47px;
+margin-bottom: 43px;
+padding-top: 18px;
+    padding-bottom: 23px;
+}
+header {
+    
+    display: inline-block;
+}
+.first-block {
+   float: left;
+   width: 37px;
+   height: 37px;
+}
+.second-block {
+        float: right;
+}
+
+.first-photo {
+    width: 25px;
+    height: 25px;
+}
+.second-photo{
+    width: 25px;
+    height: 20px;
+    margin-left: 6px;
+}
+.input-conteiner {
+    width: 940px; 
+    background-color: black;
+   margin: 0 auto;
+   margin-top: 168px;
+}

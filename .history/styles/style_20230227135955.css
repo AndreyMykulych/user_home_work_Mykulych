@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper {
+
+width: 940px;
+padding-bottom: 47px;
+padding-top: 47px;
+margin: 0 auto;
+
+}
+header {
+    display: inline-block;
+}
+.first-block {
+   float: left;
+   size: 37 px;
+}
+.second-block {
+        float: right;
+}

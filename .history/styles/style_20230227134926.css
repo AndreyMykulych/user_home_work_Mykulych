@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper {
+
+width: 940px;
+padding-bottom: 47px;
+padding-top: 47px;
+}
+header {
+    display: inline-block;
+}
+.first-block {
+    text-align: left;
+}
+.second-block {
+        text-align: right;
+}

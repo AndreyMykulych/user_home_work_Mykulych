@@ -1,0 +1,19 @@
+/* *{
+    box-sizing: border-box;
+} */
+.wrapper {
+
+width: 100%;
+padding-bottom: 47px;
+padding-top: 47px;
+}
+header {
+    display: inline-block;
+}
+.first-block {
+    text-align: left;
+}
+header .second-block {
+        text-align: right;
+        margin-right: 874px;
+}

@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 940px;
+    margin-top:47px;
+}
+p{
+    display: inline-block;
+}
+.first-block {
+    text-align: left;
+}
+.second-block {
+    float: right;
+}
+.logo-Photo {
+    width: 18px;
+    height: 23px;
+}
+.Fb-Photo {
+width: 25px;
+height: 28px;
+
+}
+.input-conteiner {
+    width: 940px; 
+    background-color: black;
+   margin: 0 auto;
+   margin-top:66px;
+}
