@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #5959e4;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo {
+    display: inline-block;
+    margin : 62px 103px;
+    float: left;
+}
+.menu {
+    float: right;
+    display: inline-block;
+    margin: 63px 45px;
+    
+}
+.menu>a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #EBEBEB;
+}
+.menu button{
+    width: 164px;
+    height: 61px;
+    background-color: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+    border-radius: 13px;
+    margin-top: 63px;
+}
+a:not(:last-of-type){
+    margin-right: 60px;
+}
+.menu .about{
+    margin-right:39px;
+}

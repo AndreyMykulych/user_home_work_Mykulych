@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #5959e4;
+    font-family: 'Roboto', sans-serif;
+
+}
+.header {
+    position: sticky;
+}
+.logo {
+    display: inline-block;
+    margin : 62px 103px;
+    float: left;
+}
+.menu {
+    float: right;
+    display: inline-block;
+    margin: 63px 45px;
+    
+}
+.menu>a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #EBEBEB;
+}
+.menu button{
+    width: 164px;
+    height: 61px;
+    background: rgb(2,0,36);
+background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(13,13,47,1) 3%, rgba(41,111,125,1) 100%);
+    border-radius: 13px;
+    
+}
+a:not(:last-of-type){
+    margin-right: 60px;
+}
+.menu .about{
+    margin-right:39px;
+}

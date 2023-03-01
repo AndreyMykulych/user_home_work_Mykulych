@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #5959e4;
+
+}
+.header {
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+    margin : 62px 103px;
+}
+.menu {
+    display: inline-block;
+}
