@@ -16,9 +16,8 @@ height: auto;
     position: sticky;
     width: 1400px;
     margin:0 auto;
-    top:56px;
+    top:0;
     padding-bottom: opx;
-    
 }
 .logo {
     display: inline-block;
@@ -55,7 +54,7 @@ color: #EBEBEB;
     font-size: 24px;
     line-height: 28px;
     color: #E5E5E5;
-   border: none;
+   
 }
 a:not(:last-of-type){
     margin-right: 60px;
@@ -73,7 +72,8 @@ a:not(:last-of-type){
  .text-block{
      display: inline-block;
      
-     margin-top:218px;
+     margin-right: 0px;
+     margin-top: 218px;
      float: left;
  }
  .text-block h1{
@@ -96,10 +96,9 @@ a:not(:last-of-type){
     font-size: 36px;
     line-height: 42px;
     color: #E5E5E5;
-    /* width: 544px; */
+    width: 544px;
 height: 42px;
-margin-top: 8px;
-margin-bottom: 55px
+margin-top: 8px
 ;
  }
  .main_photo img{
@@ -107,22 +106,24 @@ margin-bottom: 55px
      float: right;
      width: px;
      height: auto;
-    padding-top:120px;
+    
+     padding-top: 0px
+     ;
  }
  .btn-bottom{
-     display: block;
-     width: 1400px;
-     margin: 0 auto;
-     
-     
+     display: inline-block;
+     margin-left: 103px;
+     width: 1117px;
+     height: 85px;
+     margin-top:55px;
+     border-radius: 13px;
  }
  .btn-bottom button{
     background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
-   
+    border-radius: 13px;
     width: 277px;
     height: 85px;
-    border: none;
-     border-radius: 13px;
+    float: left;
     font-family: 'Roboto';
     font-family: 'Roboto';
     font-style: normal;

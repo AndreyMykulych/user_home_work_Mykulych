@@ -107,22 +107,23 @@ margin-bottom: 55px
      float: right;
      width: px;
      height: auto;
-    padding-top:120px;
+    margin-top:73px;
+     padding-top: 0px
+     ;
  }
  .btn-bottom{
-     display: block;
-     width: 1400px;
+     width: 940px;
      margin: 0 auto;
-     
+     border: none;
+     float: left;
      
  }
  .btn-bottom button{
     background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
-   
+    border-radius: 13px;
     width: 277px;
     height: 85px;
-    border: none;
-     border-radius: 13px;
+    
     font-family: 'Roboto';
     font-family: 'Roboto';
     font-style: normal;

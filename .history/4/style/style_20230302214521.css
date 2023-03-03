@@ -73,7 +73,7 @@ a:not(:last-of-type){
  .text-block{
      display: inline-block;
      
-     margin-top:218px;
+     margin-top:218;
      float: left;
  }
  .text-block h1{
@@ -96,10 +96,9 @@ a:not(:last-of-type){
     font-size: 36px;
     line-height: 42px;
     color: #E5E5E5;
-    /* width: 544px; */
+    width: 544px;
 height: 42px;
-margin-top: 8px;
-margin-bottom: 55px
+margin-top: 8px
 ;
  }
  .main_photo img{
@@ -107,22 +106,21 @@ margin-bottom: 55px
      float: right;
      width: px;
      height: auto;
-    padding-top:120px;
+    margin-top:73px;
+     padding-top: 0px
+     ;
  }
  .btn-bottom{
-     display: block;
      width: 1400px;
      margin: 0 auto;
-     
-     
+     border: none;
  }
  .btn-bottom button{
     background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
-   
+    border-radius: 13px;
     width: 277px;
     height: 85px;
-    border: none;
-     border-radius: 13px;
+    float: left;
     font-family: 'Roboto';
     font-family: 'Roboto';
     font-style: normal;

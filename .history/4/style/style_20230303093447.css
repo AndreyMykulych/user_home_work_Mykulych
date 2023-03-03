@@ -107,7 +107,9 @@ margin-bottom: 55px
      float: right;
      width: px;
      height: auto;
-    padding-top:120px;
+    margin-top:73px;
+     padding-top: 0px
+     ;
  }
  .btn-bottom{
      display: block;
