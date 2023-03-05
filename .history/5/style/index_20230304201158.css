@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    background-color: #242527;
+   
+    margin-top: 40px;
+    margin-bottom:69px ;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+.logo {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    font-size: 48px; 
+    font-weight: bold; 
+    color: #E4F5FF;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Zilla Slab', serif;
+font-style: normal;
+font-weight: 400;
+line-height: 37px;
+background-image: url("../img/Vector_(2).png");
+background-repeat: no-repeat;
+background-size: auto;
+background-position-x: 49px;
+background-position-y: 9px;
+margin: 0;
+  }
+
+
+
+  .logo p{
+      width: 200px;
+      margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E4F5FF;
+    margin-left: 55px;
+  }
+   .menu {
+       display: inline-block;
+       float: right;
+      
+   }
+  
+   .menu li{
+       display: inline-block;
+       margin-right: 50px;
+       margin-top: 14px;
+   }
+  .menu a{   
+      color: #FBFCFF;
+      text-decoration: none;
+      font-family: 'Clab';
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 25px;
+  }
+  .menu li:last-child{
+      border: 1px solid #E4F5FF;
+      width: 144px;
+      height: 53px;
+      font-family: 'Clab';
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 51px;
+background-image: none;
+margin-right: 0;
+text-align:  center;
+margin-left: 88px;
+margin-top: 0;
+padding-right: 0;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zilla Slab', serif;
+  }
+  .menu a:visited{
+      color:#FBFCFF;
+  }
+  .menu ul li{
+      background-image: url("../img/Vector_(2).png");
+      background-repeat: no-repeat;
+      background-position:center right ;
+      padding-right: 50px;
+      
+      
+  }
+  .menu li:nth-last-child(2){
+    background-image: none;
+}
+

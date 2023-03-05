@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    background-color: #242527;
+    width: 100%;
+  margin: 40px;
+}
+
+.header{
+    width: 1400px;
+    height: auto;
+}
+.logo {
+    
+    position: relative;
+    font-size: 48px; /* Розмір шрифту може бути налаштований */
+    font-weight: bold; /* Вага шрифту може бути налаштована */
+    color: #E4F5FF;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Zilla Slab', serif;
+font-style: normal;
+font-weight: 400;
+
+line-height: 37px;
+  }
+  
+  .logo::first-letter{
+    content: "";
+    background-image: url("../img/nav_img.png");
+    background-repeat: no-repeat;
+    background-size: cover; /* Масштабувати зображення, щоб воно помістилося всередину букви */
+    position: absolute;
+    top: 50%; /* Помістити зображення вертикально по центру букви */
+    left: 50%; /* Помістити зображення горизонтально по центру букви */
+    transform: translate(-50%, -50%); /* Зсунути зображення на половину його власного розміру в обидва напрямки, щоб точно помістилося в центр букви */
+    width: 100%; /* Ширина і висота псевдоелемента повинні бути такими самими, як ширина і висота букви, щоб зображення точно помістилося всередині букви */
+    height: 100%;
+  }

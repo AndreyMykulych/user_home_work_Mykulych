@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    background-color: #242527;
+    width: 100%;
+}
