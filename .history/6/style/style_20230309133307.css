@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+.app{
+    margin: 0;
+    
+}
+.first-block{
+    
+    height: 1200px;
+    padding: 0;
+    background-image: url("../img/firstbg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.head {
+    display: flex;
+    margin: 0 84px 0px 85px;
+    padding-top: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+.head h1{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 50px;
+    
+}
+ul li a{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+.search_btn input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+}
+.search_btn {
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 23px;
+
+color: #FFFFFF;
+}

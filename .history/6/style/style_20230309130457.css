@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.app{
+    margin: 0;
+    
+}
+.first-block{
+    position: relative;
+    height: 1200px;
+    padding: 0;
+    background-image: url("../img/firstbg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+.head{
+    display: flex;
+}

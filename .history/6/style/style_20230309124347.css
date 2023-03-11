@@ -1,0 +1,6 @@
+*{
+    box-sizing: border-box;
+}
+.first-block img{
+    margin-top: 0;
+}

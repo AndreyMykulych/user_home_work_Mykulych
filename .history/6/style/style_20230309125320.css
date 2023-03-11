@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+.first-block{
+    position: relative;
+    background-image: url("../img/firstbg.png");
+  background-repeat: no-repeat;
+}

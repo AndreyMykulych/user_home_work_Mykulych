@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+.first-block{
+    position: relative;
+    height: 1200px;
+    background-image: url("../img/firstbg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}

@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.first-block{
+    position: relative;
+}
+.first-block img{
+    width: 100%;
+    height: 1200px;
+    margin-top: 0;
+}
