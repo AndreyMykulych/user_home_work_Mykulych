@@ -1,0 +1,6 @@
+.card{
+    display :grid;
+}
+.about , .goals , .frustrations{
+    border: 1px solid red;
+}

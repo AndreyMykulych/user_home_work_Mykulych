@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 16px;
+}
+:root {
+    --gray-color:#F1EFFE;
+    --dark-gray: rgba(12, 13, 31, 0.5)
+}
+
+.card{
+    display :grid;
+    width: 44%;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "photo about about"
+    "photo goals frustrations";
+   
+}
+h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+}
+section1{
+    width: 13.0625rem;
+    grid-area: photo;
+    margin-left: ;
+}
+section2{
+    grid-area: about;
+}
+section3{
+    grid-area: goals;
+}
+section4{
+    grid-area: frustrations;
+}
+.information{
+    display: flex;
+    padding-top: 5px;
+    flex-direction: column;
+    
+}
+.information , ul{
+    background-color: var(--gray-color);
+    border-radius: 12px;
+    
+}
+.information p{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top:0;
+    margin-bottom: 0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+.information ul{
+    padding-left: 24px;
+}
+.information ul li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 24px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: var(--dark-gray);
+}
+.about , .goals , .frustrations{
+    border: 1px solid red;
+}

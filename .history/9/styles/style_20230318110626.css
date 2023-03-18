@@ -1,0 +1,8 @@
+.card{
+    display :grid;
+    width: 860px;
+    place-content: center;
+}
+.about , .goals , .frustrations{
+    border: 1px solid red;
+}

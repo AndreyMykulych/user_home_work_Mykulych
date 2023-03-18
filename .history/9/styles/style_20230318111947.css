@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+:root {
+    --gray-color:#F5F5F5;
+    --dark-gray:#F1EFFE;
+}
+.conteiner{
+    background-color: var(--gray-color) ;
+}
+.card{
+    display :grid;
+    width: 860px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "photo about about"
+    "photo goals frustrations";
+   
+}
+section1{
+    grid-area: photo;
+}
+section2{
+    grid-area: about;
+}
+section3{
+    grid-area: goals;
+}
+section4{
+    grid-area: frustrations;
+}
+.information , ul{
+    background-color: var(--dark-gray);
+}
+.about , .goals , .frustrations{
+    border: 1px solid red;
+}

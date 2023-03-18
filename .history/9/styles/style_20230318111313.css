@@ -1,0 +1,14 @@
+.card{
+    display :grid;
+    width: 860px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "photo about about"
+    "photo goals frustrations";
+}
+section1{
+    grid-area: photo;
+}
+.about , .goals , .frustrations{
+    border: 1px solid red;
+}
